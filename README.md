@@ -12,3 +12,8 @@ Mediante el uso de un for se verifican las claves y los valores de los diccionar
 El programa funciona ingresando dos diccionario, y mediante update mezclamos los diccionarios
 
 <img width="501" height="133" alt="image" src="https://github.com/user-attachments/assets/c590a259-9949-43f1-94b7-ec27a38813c2" />
+
+El programa funciona pidiendo el nombre,apellidos y edad del numero de personas que queremos y mediante un for nos retorna los nombres y apellidos de las personas que estan el rango de edad que necesitamos
+
+
+<img width="479" height="402" alt="image" src="https://github.com/user-attachments/assets/54211ce1-c59c-4adb-9974-31196a6ea18a" />
