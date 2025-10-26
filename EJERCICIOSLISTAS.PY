@@ -1,4 +1,4 @@
-#Desarrollar un algoritmo que determine si una matriz es magica.
+#1.Desarrollar un algoritmo que determine si una matriz es magica.
 x=list(map(int,input("Ingresa los numeros de la matriz: ").split()))
 x1=list(x)
 f1=sum(x[0:3])
@@ -14,7 +14,7 @@ if f1 == f2 == f3 == col1 == col2 == col3 == dia1 == dia2:
 else:
     print("la matriz no es mágica")
 
-#Desarrollar un algoritmo que imprima de manera ascendente los valores de un diccionario.
+#2.Desarrollar un algoritmo que imprima de manera ascendente los valores de un diccionario.
 y = input("Ingresa cinco numeros en desorden: ").split()
 dic = {}  
 for i in y:
@@ -33,7 +33,18 @@ if f:
 else:
     print("No todas las claves y valores de dic1 están en dic2.")
         
-#Desarrollar una funcion que reciba dos diccionarios como parametros y los mezcle
+#3.Desarrollar un algoritmo que verifique si todas las clave:valor de un diccionario se encuentran en otro diccionario.
+dic1 = {"a": 11, "b": 2}
+dic2 = {"a": 1, "b": 2, "c": 3}
+f=True
+for clave, valor in dic1.items():
+    if clave not in dic2 or dic2[clave] != valor:
+       f=False
+if f:
+    print("Todas las claves y valores de dic1 están en dic2.")
+else:
+    print("No todas las claves y valores de dic1 están en dic2.")
+#4.Desarrollar una funcion que reciba dos diccionarios como parametros y los mezcle
 dic1 = eval(input("Ingrese el primer diccionario: "))
 dic2 = eval(input("Ingrese el segundo diccionario: "))
 
@@ -43,7 +54,7 @@ dic3.update(dic1)
 print("\nDiccionario resultante:")
 print(dic3)
 
-#Desarrollar un programa que dada una listas de personas,imprima los nombres y apellidos 
+#5.Desarrollar un programa que dada una listas de personas,imprima los nombres y apellidos 
 #de las personas que estan en un rango de edades.
 n = int(input("¿Cuántas personas desea ingresar? "))
 
