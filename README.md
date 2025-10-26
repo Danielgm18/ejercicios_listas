@@ -8,3 +8,7 @@ El programa funciona entrando 5 numeros y creando un diccionario vacio, mediante
 Mediante el uso de un for se verifican las claves y los valores de los diccionarios para saber si son iguales 
 
 <img width="487" height="88" alt="image" src="https://github.com/user-attachments/assets/0c994f68-2eb1-4c30-bc39-92e6fac91d23" />
+
+El programa funciona ingresando dos diccionario, y mediante update mezclamos los diccionarios
+
+<img width="501" height="133" alt="image" src="https://github.com/user-attachments/assets/c590a259-9949-43f1-94b7-ec27a38813c2" />
